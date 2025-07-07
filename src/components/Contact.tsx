@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <section
       id='contact'
-      className='py-20 px-6 bg-gray-100 dark:bg-gray-800 text-gray-800 dark:text-white'
+      className='py-20 px-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white'
     >
       <div className='max-w-2xl mx-auto text-center'>
         <FadeIn>

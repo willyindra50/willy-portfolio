@@ -27,16 +27,20 @@ const projects = [
 export default function Projects() {
   return (
     <section
-      className='py-20 px-6 bg-gray-100 dark:bg-gray-800 text-gray-900 dark:text-gray-100'
+      className='py-20 px-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white'
       id='projects'
     >
-      <h2 className='text-4xl font-bold text-center mb-12 text-gray-900 dark:text-white font-sans'>
+      <h2 className='text-4xl font-bold text-center mb-4 font-sans'>
         Projects <span className='text-5xl align-middle'>✨</span>
       </h2>
+      <p className='text-center text-lg text-gray-600 dark:text-gray-300 mb-12'>
+        Here are a few things I’ve built recently.
+      </p>
+
       <div className='grid md:grid-cols-2 gap-10 max-w-5xl mx-auto'>
         {projects.map((project, index) => (
           <FadeIn key={index} delay={index * 0.2}>
-            <div className='bg-white dark:bg-gray-800 rounded-2xl shadow-lg overflow-hidden transition hover:scale-[1.02] duration-300'>
+            <div className='bg-white dark:bg-gray-800 rounded-2xl shadow-md overflow-hidden transform transition duration-300 hover:scale-105 hover:-translate-y-1 hover:shadow-xl'>
               <Image
                 src={project.image}
                 alt={project.title}
@@ -45,7 +49,7 @@ export default function Projects() {
                 className='object-cover w-full h-60'
               />
               <div className='p-6'>
-                <h3 className='text-2xl font-semibold mb-2 text-gray-900 dark:text-white font-sans flex items-center gap-2'>
+                <h3 className='text-2xl font-semibold mb-2 flex items-center gap-2'>
                   {project.title}
                   <span className='text-2xl'>{project.emoji}</span>
                 </h3>
@@ -75,6 +79,9 @@ export default function Projects() {
           </FadeIn>
         ))}
       </div>
+
+      {/* Optional Divider */}
+      <hr className='mt-20 border-gray-300 dark:border-gray-700 w-3/4 mx-auto' />
     </section>
   );
 }
