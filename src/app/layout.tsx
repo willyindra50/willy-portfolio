@@ -22,7 +22,7 @@ export default function RootLayout({
         className={`${inter.className} bg-white text-gray-800 dark:bg-gray-900 dark:text-white`}
       >
         <Navbar />
-        <main className='pt-20'>{children}</main>
+        <main>{children}</main>
       </body>
     </html>
   );

@@ -1,3 +1,4 @@
+// components/Navbar.tsx
 'use client';
 
 import Link from 'next/link';
@@ -11,16 +12,16 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <nav className='w-full py-4 px-6 flex justify-between items-center sticky top-0 bg-white dark:bg-black z-50 shadow-md'>
-      <Link href='#' className='font-bold text-xl text-primary'>
+    <nav className='w-full h-16 px-6 flex justify-between items-center sticky top-0 bg-white/90 dark:bg-black/90 backdrop-blur z-50 shadow-md'>
+      <Link href='#' className='font-bold text-xl text-blue-600'>
         Willy
       </Link>
-      <div className='flex items-center gap-4'>
+      <div className='flex items-center gap-6'>
         {navItems.map((item) => (
           <a
             key={item.href}
             href={item.href}
-            className='text-gray-800 dark:text-gray-100 hover:text-primary transition'
+            className='text-gray-800 dark:text-gray-100 hover:text-blue-600 transition'
           >
             {item.label}
           </a>

@@ -1,31 +1,31 @@
+// components/Hero.tsx
 import Image from 'next/image';
 
 export default function Hero() {
   return (
-    <section className='min-h-[80vh] flex flex-col-reverse md:flex-row items-center justify-center text-center md:text-left px-6 gap-10'>
-      <div>
-        <h1 className='text-4xl md:text-5xl font-bold mb-4'>
+    <section className='min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-6 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 pt-20'>
+      <div className='text-center md:text-left'>
+        <h1 className='text-5xl md:text-6xl font-bold mb-4 text-gray-900 dark:text-white font-sans'>
           Hi, I&apos;m Willy 👋
         </h1>
-        <p className='text-xl max-w-xl text-gray-600'>
+        <p className='text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-xl'>
           A passionate Frontend Developer crafting elegant UIs with React,
           TypeScript, and Tailwind CSS.
         </p>
         <a
           href='/resume.pdf'
-          className='mt-6 inline-block bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 transition'
+          className='mt-6 inline-block bg-blue-700 text-white px-6 py-3 rounded-full shadow-md hover:bg-blue-800 transition'
         >
-          Download Resume
+          📄 Download Resume
         </a>
       </div>
       <div>
         <Image
           src='/willy-avatar.png'
           alt='Willy Avatar'
-          width={300}
-          height={300}
-          className='rounded-full mx-auto'
-          priority
+          width={220}
+          height={220}
+          className='rounded-full shadow-lg'
         />
       </div>
     </section>
