@@ -29,9 +29,9 @@ export default function Hero() {
           <Image
             src='/willy-avatar.png'
             alt='Willy Avatar'
-            width={220}
-            height={220}
-            className='rounded-full shadow-lg'
+            width={160}
+            height={160}
+            className='rounded-full shadow-lg w-40 h-40 md:w-56 md:h-56 object-cover mx-auto md:mx-0'
           />
         </div>
       </FadeIn>
