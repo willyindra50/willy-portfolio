@@ -6,6 +6,15 @@ import FadeIn from './FadeIn';
 
 const projects = [
   {
+    title: 'Olshop',
+    emoji: '🛒',
+    description:
+      'An elegant online shop UI built with Next.js and Tailwind CSS.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui'],
+    image: '/olshop-thumbnail.png', // pastikan kamu punya file ini di /public
+    url: 'https://willy-olshop.vercel.app/',
+  },
+  {
     title: 'Blog Article',
     emoji: '📝',
     description:
