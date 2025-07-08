@@ -2,7 +2,6 @@
 'use client';
 
 import Link from 'next/link';
-import DarkModeToggle from './DarkModeToggle';
 
 const navItems = [
   { label: 'About', href: '#about' },
@@ -12,7 +11,7 @@ const navItems = [
 
 export default function Navbar() {
   return (
-    <nav className='w-full h-16 px-6 flex justify-between items-center sticky top-0 bg-white/90 dark:bg-black/90 backdrop-blur z-50 shadow-md'>
+    <nav className='w-full h-16 px-6 flex justify-between items-center sticky top-0 bg-gray-800 backdrop-blur z-50 shadow-md'>
       <Link href='#' className='font-bold text-xl text-blue-600'>
         Willy
       </Link>
@@ -26,7 +25,6 @@ export default function Navbar() {
             {item.label}
           </a>
         ))}
-        <DarkModeToggle />
       </div>
     </nav>
   );

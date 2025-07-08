@@ -4,10 +4,7 @@ import FadeIn from './FadeIn';
 
 export default function Contact() {
   return (
-    <section
-      id='contact'
-      className='py-20 px-6 bg-white dark:bg-gray-900 text-gray-900 dark:text-white'
-    >
+    <section id='contact' className='py-20 px-6 bg-gray-900 text-white'>
       <div className='max-w-2xl mx-auto text-center'>
         <FadeIn>
           <h2 className='text-4xl font-bold mb-6'>📫 Get in Touch</h2>

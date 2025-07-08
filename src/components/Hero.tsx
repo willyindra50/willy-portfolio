@@ -5,7 +5,7 @@ import FadeIn from './FadeIn';
 
 export default function Hero() {
   return (
-    <section className='min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-6 bg-gradient-to-b from-gray-50 to-white dark:from-gray-900 dark:to-gray-800 pt-20'>
+    <section className='min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-6 bg-gradient-to-b bg-gray-900 pt-20'>
       <FadeIn yOffset={0} delay={0.1}>
         <div className='text-center md:text-left'>
           <h1 className='text-5xl md:text-6xl font-bold mb-4 text-gray-900 dark:text-white font-sans'>
