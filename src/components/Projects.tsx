@@ -39,7 +39,7 @@ export default function Projects() {
       <h2 className='text-4xl font-bold text-center mb-4 font-sans'>
         Projects <span className='text-5xl align-middle'>✨</span>
       </h2>
-      <p className='text-center text-lg text-gray-600 dark:text-gray-300 mb-12'>
+      <p className='text-center text-lg text-white mb-12'>
         Here are a few things I’ve built recently.
       </p>
 
@@ -60,9 +60,7 @@ export default function Projects() {
                     {project.title}
                     <span className='text-2xl'>{project.emoji}</span>
                   </h3>
-                  <p className='text-gray-700 dark:text-gray-300 mb-4'>
-                    {project.description}
-                  </p>
+                  <p className='text-white mb-4'>{project.description}</p>
                   <div className='flex flex-wrap gap-2 mb-4'>
                     {project.tech.map((tech, i) => (
                       <span
