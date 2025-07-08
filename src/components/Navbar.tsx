@@ -20,7 +20,7 @@ export default function Navbar() {
           <a
             key={item.href}
             href={item.href}
-            className='text-gray-800 dark:text-gray-100 hover:text-blue-600 transition'
+            className='text-white hover:text-blue-600 transition'
           >
             {item.label}
           </a>

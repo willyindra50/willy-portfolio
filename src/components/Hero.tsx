@@ -8,10 +8,10 @@ export default function Hero() {
     <section className='min-h-screen flex flex-col-reverse md:flex-row items-center justify-center gap-8 px-6 bg-gradient-to-b bg-gray-900 pt-20'>
       <FadeIn yOffset={0} delay={0.1}>
         <div className='text-center md:text-left'>
-          <h1 className='text-5xl md:text-6xl font-bold mb-4 text-gray-900 dark:text-white font-sans'>
+          <h1 className='text-5xl md:text-6xl font-bold mb-4 text-white font-sans'>
             Hi, I&apos;m Willy 👋
           </h1>
-          <p className='text-xl md:text-2xl text-gray-700 dark:text-gray-300 max-w-xl'>
+          <p className='text-xl md:text-2xl text-white max-w-xl'>
             A passionate Frontend Developer crafting elegant UIs with React,
             TypeScript, and Tailwind CSS.
           </p>

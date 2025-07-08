@@ -12,7 +12,7 @@ export default function About() {
           <strong>React, Next.js, TypeScript</strong>, and{' '}
           <strong>Tailwind CSS</strong> to create amazing user experiences.
         </p>
-        <p className='mt-4 text-lg leading-8 text-neutral-300'>
+        <p className='mt-4 text-lg leading-8 text-gray-100'>
           Coming from a maritime background as a former Second Officer in the
           merchant navy, I discovered coding as a space for limitless
           expression. I believe technology can be a form of art, and I&apos;m
