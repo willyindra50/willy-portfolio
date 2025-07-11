@@ -6,6 +6,15 @@ import FadeIn from './FadeIn';
 
 const projects = [
   {
+    title: 'Music Player',
+    emoji: '🎵',
+    description:
+      'A modern and animated music player with play/pause, skip, repeat, shuffle, queue system, responsive layout, and synchronized progress slider. Built with Framer Motion for smooth transitions.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    image: '/music-player-thumbnail.png',
+    url: 'https://music-player-willy.vercel.app/',
+  },
+  {
     title: 'Olshop',
     emoji: '🛒',
     description:
