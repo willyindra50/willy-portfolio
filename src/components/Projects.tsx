@@ -9,25 +9,26 @@ const projects = [
     title: 'Olshop',
     emoji: '🛒',
     description:
-      'An elegant online shop UI built with Next.js and Tailwind CSS.',
+      'A responsive online shop UI built with Next.js and Tailwind CSS. Features interactive product cards, cart system, quantity controls, and clean UI using shadcn/ui.',
     tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'shadcn/ui'],
-    image: '/olshop-thumbnail.png', // pastikan kamu punya file ini di /public
+    image: '/olshop-thumbnail.png',
     url: 'https://willy-olshop.vercel.app/',
   },
   {
     title: 'Blog Article',
     emoji: '📝',
     description:
-      'A blogging platform with markdown support and minimalist design.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+      'A blogging platform with dynamic routing, article detail pages, and search functionality. Integrated with Blogger-WPH API and optimized with React Query for fast data fetching.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'React Query'],
     image: '/blog-thumbnail.png',
     url: 'https://blog-artikel-willy.vercel.app/',
   },
   {
     title: 'Movie App',
     emoji: '🎬',
-    description: 'A movie search app using data from TMDB API.',
-    tech: ['Next.js', 'TypeScript', 'Tailwind CSS'],
+    description:
+      'A sleek movie discovery app that fetches real-time data from The Movie DB API. Includes trending sections, infinite scroll, responsive design, and dark mode UI.',
+    tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'TMDB API'],
     image: '/movie-thumbnail.jpg',
     url: 'https://movie-willy.vercel.app/',
   },
@@ -39,8 +40,10 @@ export default function Projects() {
       <h2 className='text-4xl font-bold text-center mb-4 font-sans'>
         Projects <span className='text-5xl align-middle'>✨</span>
       </h2>
-      <p className='text-center text-lg text-white mb-12'>
-        Here are a few things I’ve built recently.
+      <p className='text-center text-lg text-white mb-12 max-w-xl mx-auto'>
+        A selection of real-world projects I’ve built using modern frontend
+        technologies. Each one focuses on performance, accessibility, and clean
+        UI/UX.
       </p>
 
       <div className='grid md:grid-cols-2 gap-10 max-w-5xl mx-auto'>

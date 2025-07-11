@@ -4,16 +4,17 @@ import FadeIn from './FadeIn';
 
 export default function Contact() {
   return (
-    <section id='contact' className='py-20 px-6 bg-gray-900 text-white'>
+    <section id='contact' className='py-20 px-6 bg-gray-950 text-white'>
       <div className='max-w-2xl mx-auto text-center'>
         <FadeIn>
-          <h2 className='text-4xl font-bold mb-6'>📫 Get in Touch</h2>
+          <h2 className='text-4xl font-bold mb-6'>📫 Let’s Connect</h2>
         </FadeIn>
 
         <FadeIn delay={0.15}>
           <p className='text-lg mb-6'>
-            Have a question or just want to say hi? I&apos;d love to hear from
-            you. Reach out via any platform below:
+            Have a project in mind, a collaboration opportunity, or just want to
+            say hello? I’m always open to exciting ideas — feel free to reach
+            out!
           </p>
         </FadeIn>
 
@@ -26,7 +27,7 @@ export default function Contact() {
               ✉️ Email
             </a>
             <a
-              href='https://linkedin.com/'
+              href='https://www.linkedin.com/in/willyindra/' // ganti sesuai link kamu ya
               target='_blank'
               rel='noopener noreferrer'
               className='text-blue-600 hover:text-blue-800 dark:text-blue-400 dark:hover:text-blue-300 transition-colors duration-300'
