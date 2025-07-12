@@ -53,7 +53,7 @@ export default function Hero() {
             alt='Willy Avatar'
             width={160}
             height={160}
-            className='rounded-full shadow-lg w-40 h-40 md:w-56 md:h-56 object-cover mx-auto md:mx-0'
+            className='rounded-xl shadow-lg w-40 h-40 md:w-56 md:h-56 object-cover mx-auto md:mx-0'
           />
         </div>
       </FadeIn>
